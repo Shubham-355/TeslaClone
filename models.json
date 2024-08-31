@@ -4,20 +4,20 @@
             "id": "model-3",
             "name": "Model 3",
             "basePrice": "From $34,990 1",
-            "defaultImage": "public/HomePageImages/Homepage-Model-3-Desktop-US.avif",
+            "defaultImage": "/Homepage-Model-3-Desktop-US.avif",
             "topDetails": "1.99% APR Financing Ending August 31",
             "configurations": {
                 "colors": [
-                    {"name": "white", "price": 0, "image" : "public/Models/Model3/white/compositor (1).jpeg"},
-                    {"name": "black", "price": 1000, "image" : "public/Models/Model3/black/compositor (1).jpeg"}
+                    {"name": "white", "price": 0, "image" : "/Models/Model3/white/compositor (1).jpeg"},
+                    {"name": "black", "price": 1000, "image" : "/Models/Model3/black/compositor (1).jpeg"}
                 ],
                 "wheels": [
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "public/Models/Model3/black/compositor (1).jpeg"},
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "public/Models/Model3/black/compositor (2).jpeg"}
+                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (1).jpeg"},
+                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (2).jpeg"}
                 ],
                 "interior": [
-                    {"name": "All black", "price": 0, "image":"public/Models/Model3/black/compositor (2).jpeg"},
-                    {"name": "All white", "price": 11110, "image":"public/Models/Model3/black/compositor (3).jpeg"}
+                    {"name": "All black", "price": 0, "image":"/Models/Model3/black/compositor (2).jpeg"},
+                    {"name": "All white", "price": 11110, "image":"/Models/Model3/black/compositor (3).jpeg"}
                 ],
                 "extras": [
                     {"name": "Enhanced Autopilot", "price": 6000},
@@ -29,20 +29,20 @@
             "id": "model-Y",
             "name": "Model Y",
             "basePrice": "From $31,490 2",
-            "defaultImage": "public/HomePageImages/Homepage-Model-Y-Desktop-US-v2.avif",
+            "defaultImage": "/Homepage-Model-Y-Desktop-US-v2.avif",
             "topDetails": "1.99% APR Financing Ending August 31",
             "configurations": {
                 "colors": [
-                    {"name": "white", "price": 0, "image" : "public/Models/Model3/white/compositor (1).jpeg"},
-                    {"name": "black", "price": 1000, "image" : "public/Models/Model3/black/compositor (1).jpeg"}
+                    {"name": "white", "price": 0, "image" : "/Models/Model3/white/compositor (1).jpeg"},
+                    {"name": "black", "price": 1000, "image" : "/Models/Model3/black/compositor (1).jpeg"}
                 ],
                 "wheels": [
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "public/Models/Model3/black/compositor (1).jpeg"},
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "public/Models/Model3/black/compositor (2).jpeg"}
+                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (1).jpeg"},
+                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (2).jpeg"}
                 ],
                 "interior": [
-                    {"name": "All black", "price": 0, "image":"public/Models/Model3/black/compositor (2).jpeg"},
-                    {"name": "All white", "price": 11110, "image":"public/Models/Model3/black/compositor (3).jpeg"}
+                    {"name": "All black", "price": 0, "image":"/Models/Model3/black/compositor (2).jpeg"},
+                    {"name": "All white", "price": 11110, "image":"/Models/Model3/black/compositor (3).jpeg"}
                 ],
                 "extras": [
                     {"name": "Enhanced Autopilot", "price": 6000},
@@ -54,20 +54,20 @@
             "id": "model-X",
             "name": "Model X",
             "basePrice": "From $65,990 3",
-            "defaultImage": "public/HomePageImages/Homepage-Model-X-Desktop-US.avif",
+            "defaultImage": "/Homepage-Model-X-Desktop-US.avif",
             "topDetails": " After Federal Tax Credit $7,500 and Est. Gas Savings $6,500",
             "configurations": {
                 "colors": [
-                    {"name": "white", "price": 0, "image" : "public/Models/Model3/white/compositor (1).jpeg"},
-                    {"name": "black", "price": 1000, "image" : "public/Models/Model3/black/compositor (1).jpeg"}
+                    {"name": "white", "price": 0, "image" : "/Models/Model3/white/compositor (1).jpeg"},
+                    {"name": "black", "price": 1000, "image" : "/Models/Model3/black/compositor (1).jpeg"}
                 ],
                 "wheels": [
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "public/Models/Model3/black/compositor (1).jpeg"},
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "public/Models/Model3/black/compositor (2).jpeg"}
+                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (1).jpeg"},
+                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (2).jpeg"}
                 ],
                 "interior": [
-                    {"name": "All black", "price": 0, "image":"public/Models/Model3/black/compositor (2).jpeg"},
-                    {"name": "All white", "price": 11110, "image":"public/Models/Model3/black/compositor (3).jpeg"}
+                    {"name": "All black", "price": 0, "image":"/Models/Model3/black/compositor (2).jpeg"},
+                    {"name": "All white", "price": 11110, "image":"/Models/Model3/black/compositor (3).jpeg"}
                 ],
                 "extras": [
                     {"name": "Enhanced Autopilot", "price": 6000},
@@ -79,20 +79,20 @@
             "id": "model-S",
             "name": "Model S",
             "basePrice": "From $68,490 4",
-            "defaultImage": "public/HomePageImages/Homepage-Model-S-Desktop-US.avif",
+            "defaultImage": "/Homepage-Model-S-Desktop-US.avif",
             "topDetails": "After Est. Gas Savings $6,500",
             "configurations": {
                 "colors": [
-                    {"name": "white", "price": 0, "image" : "public/Models/Model3/white/compositor (1).jpeg"},
-                    {"name": "black", "price": 1000, "image" : "public/Models/Model3/black/compositor (1).jpeg"}
+                    {"name": "white", "price": 0, "image" : "/Models/Model3/white/compositor (1).jpeg"},
+                    {"name": "black", "price": 1000, "image" : "/Models/Model3/black/compositor (1).jpeg"}
                 ],
                 "wheels": [
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "public/Models/Model3/black/compositor (1).jpeg"},
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "public/Models/Model3/black/compositor (2).jpeg"}
+                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (1).jpeg"},
+                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (2).jpeg"}
                 ],
                 "interior": [
-                    {"name": "All black", "price": 0, "image":"public/Models/Model3/black/compositor (2).jpeg"},
-                    {"name": "All white", "price": 11110, "image":"public/Models/Model3/black/compositor (3).jpeg"}
+                    {"name": "All black", "price": 0, "image":"/Models/Model3/black/compositor (2).jpeg"},
+                    {"name": "All white", "price": 11110, "image":"/Models/Model3/black/compositor (3).jpeg"}
                 ],
                 "extras": [
                     {"name": "Enhanced Autopilot", "price": 6000},
@@ -104,20 +104,20 @@
             "id": "model-cybertruck",
             "name": "CYBERTRUCk",
             "basePrice": "From $68,490 4",
-            "defaultImage": "public/HomePageImages/Homepage-Cybertruck-Desktop-v3.avif",
+            "defaultImage": "/Homepage-Cybertruck-Desktop-v3.avif",
             "topDetails": "1.99% APR Financing Ending August 31",
             "configurations": {
                 "colors": [
-                    {"name": "white", "price": 0, "image" : "public/Models/Model3/white/compositor (1).jpeg"},
-                    {"name": "black", "price": 1000, "image" : "public/Models/Model3/black/compositor (1).jpeg"}
+                    {"name": "white", "price": 0, "image" : "/Models/Model3/white/compositor (1).jpeg"},
+                    {"name": "black", "price": 1000, "image" : "/Models/Model3/black/compositor (1).jpeg"}
                 ],
                 "wheels": [
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "public/Models/Model3/black/compositor (1).jpeg"},
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "public/Models/Model3/black/compositor (2).jpeg"}
+                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (1).jpeg"},
+                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (2).jpeg"}
                 ],
                 "interior": [
-                    {"name": "All black", "price": 0, "image":"public/Models/Model3/black/compositor (2).jpeg"},
-                    {"name": "All white", "price": 11110, "image":"public/Models/Model3/black/compositor (3).jpeg"}
+                    {"name": "All black", "price": 0, "image":"/Models/Model3/black/compositor (2).jpeg"},
+                    {"name": "All white", "price": 11110, "image":"/Models/Model3/black/compositor (3).jpeg"}
                 ],
                 "extras": [
                     {"name": "Enhanced Autopilot", "price": 6000},
@@ -130,71 +130,71 @@
         {
             "id": "model-3",
             "name": "Model 3",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Vehicles-Model-3-Performance-LHD.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Vehicles-Model-3-Performance-LHD.avif"
         },
         {
             "id": "model-Y",
             "name": "Model Y",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Vehicles-Model-Y.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Vehicles-Model-Y.avif"
         },
         {
             "id": "model-X",
             "name": "Model X",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Vehicles-Model-X.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Vehicles-Model-X.avif"
         },
         {
             "id": "model-S",
             "name": "Model S",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Vehicles-Model-S.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Vehicles-Model-S.avif"
         },
         {
             "id": "model-cybertruck",
             "name": "CYBERTRUCK",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Vehicles-Cybertruck-1x.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Vehicles-Cybertruck-1x.avif"
         },
         {
             "id": "model-help",
             "name": "Help Me Choose",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Vehicles-HMC-RedBlue-LHD.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Vehicles-HMC-RedBlue-LHD.avif"
         }
     ],
     "energys" : [
         {
             "id": "model-Solar Panels",
             "name": "Solar Panels",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Energy-Solar-Panels.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Energy-Solar-Panels.avif"
         },
         {
             "id": "model-Solar Roof",
             "name": "Solar Roof",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Energy-Solar-Roof.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Energy-Solar-Roof.avif"
         },
         {
             "id": "model-Powerwall",
             "name": "Powerwall",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Energy-Powerwall-US.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Energy-Powerwall-US.avif"
         },
         {
             "id": "model-Megapack",
             "name": "Megapack",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Energy-Megapack.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Energy-Megapack.avif"
         }
     ],
     "charging" : [
         {
             "id": "model-Charging",
             "name": "Charging",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Charging-Charging.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Charging-Charging.avif"
         },
         {
             "id": "model-Home Charging",
             "name": "Home Charging",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Charging-Home-Charging.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Charging-Home-Charging.avif"
         },
         {
             "id": "model-Supercharging",
             "name": "Supercharging",
-            "defaulDisplaytImage": "public/Models/HoverCardImages/Mega-Menu-Charging-Supercharging-NA.avif"
+            "defaulDisplaytImage": "/Models/HoverCardImages/Mega-Menu-Charging-Supercharging-NA.avif"
         }
     ],
     "vehiclelist" : [

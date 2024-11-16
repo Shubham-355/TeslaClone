@@ -4,9 +4,9 @@ import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import HomeComponent from './components/HomeComponents'
 import ItemPage from './components/ItemPage'
+import SigninPage from './components/SigninPage'
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -16,6 +16,7 @@ function App() {
           <Routes>
             <Route path='/' element={<HomeComponent />} />
             <Route path='/car/:id' element={<ItemPage />} />
+            <Route path='/sign' element={<SigninPage />} />
           </Routes>
           
         </div>

@@ -3,109 +3,689 @@
         {
             "id": "model-3",
             "name": "Model 3",
-            "basePrice": "From $34,990 1",
+            "basePrice": 34990,
+            "priceback": "1",
             "defaultImage": "/Homepage-Model-3-Desktop-US.avif",
             "topDetails": "1.99% APR Financing Ending August 31",
-            "configurations": {
-                "colors": [
-                    {"name": "white", "price": 0, "image" : "/Models/Model3/white/compositor (1).jpeg"},
-                    {"name": "black", "price": 1000, "image" : "/Models/Model3/black/compositor (1).jpeg"}
-                ],
+            "configurations":  {
                 "wheels": [
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (1).jpeg"},
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (2).jpeg"}
+                {
+                    "name": "dark",
+                    "price": 0,
+                    "previewImage" : "/Models/21Arachnid.avif"
+                },
+                {
+                    "name": "induction",
+                    "price": 2000,
+                    "previewImage" : "/Models/ui_swat_whl_tempest.avif"
+                }
+                ],
+                "colors": [
+                {
+                    "name": "Red",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/Model3/dark/red/compositor.jpeg",
+                        "/Models/Model3/dark/red/compositor (1).jpeg",
+                        "/Models/Model3/dark/red/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/Model3/induction/red/compositor.jpeg",
+                        "/Models/Model3/induction/red/compositor (1).jpeg",
+                        "/Models/Model3/induction/red/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Red_Paint_R2.avif"
+                },
+                {
+                    "name": "Black",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/Model3/dark/black/compositor.jpeg",
+                        "/Models/Model3/dark/black/compositor (1).jpeg",
+                        "/Models/Model3/dark/black/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/Model3/induction/black/compositor.jpeg",
+                        "/Models/Model3/induction/black/compositor (1).jpeg",
+                        "/Models/Model3/induction/black/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_Black.avif"
+                },
+                {
+                    "name": "White",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/Model3/dark/white/compositor.jpeg",
+                        "/Models/Model3/dark/black/compositor (1).jpeg",
+                        "/Models/Model3/dark/black/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/Model3/induction/white/compositor.jpeg",
+                        "/Models/Model3/induction/white/compositor (1).jpeg",
+                        "/Models/Model3/induction/white/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_White.avif"
+                },
+                {
+                    "name": "deepblue",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/Model3/dark/deepblue/compositor.jpeg",
+                        "/Models/Model3/dark/deepblue/compositor (1).jpeg",
+                        "/Models/Model3/dark/deepblue/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelS/induction/deepblue/compositor.jpeg",
+                        "/Models/ModelS/induction/deepblue/compositor (1).jpeg",
+                        "/Models/ModelS/induction/deepblue/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_Blue.avif"
+                },
+                {
+                    "name": "silver",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/Model3/dark/silver/compositor.jpeg",
+                        "/Models/Model3/dark/silver/compositor (1).jpeg",
+                        "/Models/Model3/dark/silver/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/Model3/induction/silver/compositor.jpeg",
+                        "/Models/Model3/induction/silver/compositor (1).jpeg",
+                        "/Models/Model3/induction/silver/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/LSilverPaint.avif"
+                },
+                {
+                    "name": "stealth grey",
+                    "price": 0,
+                    "images": {
+                    "dark": [
+                        "/Models/Model3/dark/stealth grey/compositor.jpeg",
+                        "/Models/Model3/dark/stealth grey/compositor (1).jpeg",
+                        "/Models/Model3/dark/stealth grey/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/Model3/induction/stealth grey/compositor.jpeg",
+                        "/Models/Model3/induction/stealth grey/compositor (1).jpeg",
+                        "/Models/Model3/induction/stealth grey/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_StealthGrey.avif"
+                }
+                ],
+                "steering": [
+                {
+                    "name": "wheel",
+                    "price": 0,
+                    "previewImage" : "/Models/ui_swat_s-wheel-b.png"
+                },
+                {
+                    "name": "yoke",
+                    "price": 2000,
+                    "previewImage" : "/Models/ui_swat_s-wheel-y.png"
+                }
                 ],
                 "interior": [
-                    {"name": "All black", "price": 0, "image":"/Models/Model3/black/compositor (2).jpeg"},
-                    {"name": "All white", "price": 11110, "image":"/Models/Model3/black/compositor (3).jpeg"}
-                ],
-                "extras": [
-                    {"name": "Enhanced Autopilot", "price": 6000},
-                    {"name": "Full self-Driving Capability", "price": 6000}
+                {
+                    "name": "white",
+                    "price": 1000,
+                    "images": {
+                    "wheel": [
+                        "https://via.placeholder.com/800x400.png?text=intwhite+wheel+1"
+                    ],
+                    "yoke": [
+                        "https://via.placeholder.com/800x400.png?text=intwhite+yoke+1"
+                    ]
+                    },
+                    "previewImage" : "/Models/Interior_White.avif"
+                },
+                {
+                    "name": "Black",
+                    "price": 1000,
+                    "images": {
+                    "wheel": [
+                        "https://via.placeholder.com/800x400.png?text=intBlack+wheel+1"
+                    ],
+                    "yoke": [
+                        "https://via.placeholder.com/800x400.png?text=intBlack+yoke+1"
+                    ]
+                    },
+                    "previewImage" : "/Models/Interior_Black.avif"
+                }
                 ]
             }
         },
         {
             "id": "model-Y",
             "name": "Model Y",
-            "basePrice": "From $31,490 2",
+            "basePrice": 31490,
+            "priceback": "2",
             "defaultImage": "/Homepage-Model-Y-Desktop-US-v2.avif",
             "topDetails": "1.99% APR Financing Ending August 31",
-            "configurations": {
-                "colors": [
-                    {"name": "white", "price": 0, "image" : "/Models/Model3/white/compositor (1).jpeg"},
-                    {"name": "black", "price": 1000, "image" : "/Models/Model3/black/compositor (1).jpeg"}
-                ],
+            "configurations":  {
                 "wheels": [
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (1).jpeg"},
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (2).jpeg"}
+                {
+                    "name": "dark",
+                    "price": 0,
+                    "previewImage" : "/Models/21Arachnid.avif"
+                },
+                {
+                    "name": "induction",
+                    "price": 2000,
+                    "previewImage" : "/Models/ui_swat_whl_tempest.avif"
+                }
+                ],
+                "colors": [
+                {
+                    "name": "Red",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelY/dark/red/compositor.jpeg",
+                        "/Models/ModelY/dark/red/compositor (1).jpeg",
+                        "/Models/ModelY/dark/red/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelY/induction/red/compositor.jpeg",
+                        "/Models/ModelY/induction/red/compositor (1).jpeg",
+                        "/Models/ModelY/induction/red/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Red_Paint_R2.avif"
+                },
+                {
+                    "name": "Black",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelY/dark/black/compositor.jpeg",
+                        "/Models/ModelY/dark/black/compositor (1).jpeg",
+                        "/Models/ModelY/dark/black/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelY/induction/black/compositor.jpeg",
+                        "/Models/ModelY/induction/black/compositor (1).jpeg",
+                        "/Models/ModelY/induction/black/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_Black.avif"
+                },
+                {
+                    "name": "White",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelY/dark/white/compositor.jpeg",
+                        "/Models/ModelY/dark/black/compositor (1).jpeg",
+                        "/Models/ModelY/dark/black/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelY/induction/white/compositor.jpeg",
+                        "/Models/ModelY/induction/white/compositor (1).jpeg",
+                        "/Models/ModelY/induction/white/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_White.avif"
+                },
+                {
+                    "name": "deepblue",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelY/dark/deepblue/compositor.jpeg",
+                        "/Models/ModelY/dark/deepblue/compositor (1).jpeg",
+                        "/Models/ModelY/dark/deepblue/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelY/induction/deepblue/compositor.jpeg",
+                        "/Models/ModelY/induction/deepblue/compositor (1).jpeg",
+                        "/Models/ModelY/induction/deepblue/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_Blue.avif"
+                },
+                {
+                    "name": "silver",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelY/dark/silver/compositor.jpeg",
+                        "/Models/ModelY/dark/silver/compositor (1).jpeg",
+                        "/Models/ModelY/dark/silver/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelY/induction/silver/compositor.jpeg",
+                        "/Models/ModelY/induction/silver/compositor (1).jpeg",
+                        "/Models/ModelY/induction/silver/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/LSilverPaint.avif"
+                },
+                {
+                    "name": "stealth grey",
+                    "price": 0,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelY/dark/stealth grey/compositor.jpeg",
+                        "/Models/ModelY/dark/stealth grey/compositor (1).jpeg",
+                        "/Models/ModelY/dark/stealth grey/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelY/induction/stealth grey/compositor.jpeg",
+                        "/Models/ModelY/induction/stealth grey/compositor (1).jpeg",
+                        "/Models/ModelY/induction/stealth grey/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_StealthGrey.avif"
+                }
+                ],
+                "steering": [
+                {
+                    "name": "wheel",
+                    "price": 0,
+                    "previewImage" : "/Models/ui_swat_s-wheel-b.png"
+                },
+                {
+                    "name": "yoke",
+                    "price": 2000,
+                    "previewImage" : "/Models/ui_swat_s-wheel-y.png"
+                }
                 ],
                 "interior": [
-                    {"name": "All black", "price": 0, "image":"/Models/Model3/black/compositor (2).jpeg"},
-                    {"name": "All white", "price": 11110, "image":"/Models/Model3/black/compositor (3).jpeg"}
-                ],
-                "extras": [
-                    {"name": "Enhanced Autopilot", "price": 6000},
-                    {"name": "Full self-Driving Capability", "price": 6000}
+                {
+                    "name": "white",
+                    "price": 1000,
+                    "images": {
+                    "wheel": [
+                        "https://via.placeholder.com/800x400.png?text=intwhite+wheel+1"
+                    ],
+                    "yoke": [
+                        "https://via.placeholder.com/800x400.png?text=intwhite+yoke+1"
+                    ]
+                    },
+                    "previewImage" : "/Models/Interior_White.avif"
+                },
+                {
+                    "name": "Black",
+                    "price": 1000,
+                    "images": {
+                    "wheel": [
+                        "https://via.placeholder.com/800x400.png?text=intBlack+wheel+1"
+                    ],
+                    "yoke": [
+                        "https://via.placeholder.com/800x400.png?text=intBlack+yoke+1"
+                    ]
+                    },
+                    "previewImage" : "/Models/Interior_Black.avif"
+                }
                 ]
             }
         },
         {
             "id": "model-X",
             "name": "Model X",
-            "basePrice": "From $65,990 3",
+            "basePrice": 65990,
+            "priceback": "3",
             "defaultImage": "/Homepage-Model-X-Desktop-US.avif",
             "topDetails": " After Federal Tax Credit $7,500 and Est. Gas Savings $6,500",
-            "configurations": {
-                "colors": [
-                    {"name": "white", "price": 0, "image" : "/Models/Model3/white/compositor (1).jpeg"},
-                    {"name": "black", "price": 1000, "image" : "/Models/Model3/black/compositor (1).jpeg"}
-                ],
+            "configurations":  {
                 "wheels": [
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (1).jpeg"},
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (2).jpeg"}
+                {
+                    "name": "dark",
+                    "price": 0,
+                    "previewImage" : "/Models/21Arachnid.avif"
+                },
+                {
+                    "name": "induction",
+                    "price": 2000,
+                    "previewImage" : "/Models/ui_swat_whl_tempest.avif"
+                }
+                ],
+                "colors": [
+                {
+                    "name": "Red",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelX/dark/red/compositor.jpeg",
+                        "/Models/ModelX/dark/red/compositor (1).jpeg",
+                        "/Models/ModelX/dark/red/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelX/induction/red/compositor.jpeg",
+                        "/Models/ModelX/induction/red/compositor (1).jpeg",
+                        "/Models/ModelX/induction/red/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Red_Paint_R2.avif"
+                },
+                {
+                    "name": "Black",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelX/dark/black/compositor.jpeg",
+                        "/Models/ModelX/dark/black/compositor (1).jpeg",
+                        "/Models/ModelX/dark/black/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelX/induction/black/compositor.jpeg",
+                        "/Models/ModelX/induction/black/compositor (1).jpeg",
+                        "/Models/ModelX/induction/black/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_Black.avif"
+                },
+                {
+                    "name": "White",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelX/dark/white/compositor.jpeg",
+                        "/Models/ModelX/dark/black/compositor (1).jpeg",
+                        "/Models/ModelX/dark/black/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelX/induction/white/compositor.jpeg",
+                        "/Models/ModelX/induction/white/compositor (1).jpeg",
+                        "/Models/ModelX/induction/white/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_White.avif"
+                },
+                {
+                    "name": "deepblue",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelX/dark/deepblue/compositor.jpeg",
+                        "/Models/ModelX/dark/deepblue/compositor (1).jpeg",
+                        "/Models/ModelX/dark/deepblue/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelX/induction/deepblue/compositor.jpeg",
+                        "/Models/ModelX/induction/deepblue/compositor (1).jpeg",
+                        "/Models/ModelX/induction/deepblue/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_Blue.avif"
+                },
+                {
+                    "name": "silver",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelX/dark/silver/compositor.jpeg",
+                        "/Models/ModelX/dark/silver/compositor (1).jpeg",
+                        "/Models/ModelX/dark/silver/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelX/induction/silver/compositor.jpeg",
+                        "/Models/ModelX/induction/silver/compositor (1).jpeg",
+                        "/Models/ModelX/induction/silver/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/LSilverPaint.avif"
+                },
+                {
+                    "name": "stealth grey",
+                    "price": 0,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelX/dark/stealth grey/compositor.jpeg",
+                        "/Models/ModelX/dark/stealth grey/compositor (1).jpeg",
+                        "/Models/ModelX/dark/stealth grey/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelX/induction/stealth grey/compositor.jpeg",
+                        "/Models/ModelX/induction/stealth grey/compositor (1).jpeg",
+                        "/Models/ModelX/induction/stealth grey/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_StealthGrey.avif"
+                }
+                ],
+                "steering": [
+                {
+                    "name": "wheel",
+                    "price": 0,
+                    "previewImage" : "/Models/ui_swat_s-wheel-b.png"
+                },
+                {
+                    "name": "yoke",
+                    "price": 2000,
+                    "previewImage" : "/Models/ui_swat_s-wheel-y.png"
+                }
                 ],
                 "interior": [
-                    {"name": "All black", "price": 0, "image":"/Models/Model3/black/compositor (2).jpeg"},
-                    {"name": "All white", "price": 11110, "image":"/Models/Model3/black/compositor (3).jpeg"}
-                ],
-                "extras": [
-                    {"name": "Enhanced Autopilot", "price": 6000},
-                    {"name": "Full self-Driving Capability", "price": 6000}
+                {
+                    "name": "white",
+                    "price": 1000,
+                    "images": {
+                    "wheel": [
+                        "https://via.placeholder.com/800x400.png?text=intwhite+wheel+1"
+                    ],
+                    "yoke": [
+                        "https://via.placeholder.com/800x400.png?text=intwhite+yoke+1"
+                    ]
+                    },
+                    "previewImage" : "/Models/Interior_White.avif"
+                },
+                {
+                    "name": "Black",
+                    "price": 1000,
+                    "images": {
+                    "wheel": [
+                        "https://via.placeholder.com/800x400.png?text=intBlack+wheel+1"
+                    ],
+                    "yoke": [
+                        "https://via.placeholder.com/800x400.png?text=intBlack+yoke+1"
+                    ]
+                    },
+                    "previewImage" : "/Models/Interior_Black.avif"
+                }
                 ]
             }
         },
         {
             "id": "model-S",
             "name": "Model S",
-            "basePrice": "From $68,490 4",
+            "basePrice": 68490,
+            "priceback": "4",
+            "range": "402",
+            "topspeed": "130",
+            "0to60": "3.1",
             "defaultImage": "/Homepage-Model-S-Desktop-US.avif",
             "topDetails": "After Est. Gas Savings $6,500",
             "configurations": {
-                "colors": [
-                    {"name": "white", "price": 0, "image" : "/Models/Model3/white/compositor (1).jpeg"},
-                    {"name": "black", "price": 1000, "image" : "/Models/Model3/black/compositor (1).jpeg"}
-                ],
                 "wheels": [
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (1).jpeg"},
-                    {"name": "18'' Awro Wheels", "price": 0, "image": "/Models/Model3/black/compositor (2).jpeg"}
+                {
+                    "name": "dark",
+                    "price": 0,
+                    "previewImage" : "/Models/21Arachnid.avif"
+                },
+                {
+                    "name": "induction",
+                    "price": 2000,
+                    "previewImage" : "/Models/ui_swat_whl_tempest.avif"
+                }
+                ],
+                "colors": [
+                {
+                    "name": "stealth grey",
+                    "price": 0,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelS/dark/stealth grey/compositor.jpeg",
+                        "/Models/ModelS/dark/stealth grey/compositor (1).jpeg",
+                        "/Models/ModelS/dark/stealth grey/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelS/induction/stealth grey/compositor.jpeg",
+                        "/Models/ModelS/induction/stealth grey/compositor (1).jpeg",
+                        "/Models/ModelS/induction/stealth grey/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_StealthGrey.avif"
+                },
+                {
+                    "name": "Red",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelS/dark/red/compositor.jpeg",
+                        "/Models/ModelS/dark/red/compositor (1).jpeg",
+                        "/Models/ModelS/dark/red/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelS/induction/red/compositor.jpeg",
+                        "/Models/ModelS/induction/red/compositor (1).jpeg",
+                        "/Models/ModelS/induction/red/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Red_Paint_R2.avif"
+                },
+                {
+                    "name": "Black",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelS/dark/black/compositor.jpeg",
+                        "/Models/ModelS/dark/black/compositor (1).jpeg",
+                        "/Models/ModelS/dark/black/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelS/induction/black/compositor.jpeg",
+                        "/Models/ModelS/induction/black/compositor (1).jpeg",
+                        "/Models/ModelS/induction/black/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_Black.avif"
+                },
+                {
+                    "name": "White",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelS/dark/white/compositor.jpeg",
+                        "/Models/ModelS/dark/white/compositor (1).jpeg",
+                        "/Models/ModelS/dark/white/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelS/induction/white/compositor.jpeg",
+                        "/Models/ModelS/induction/white/compositor (1).jpeg",
+                        "/Models/ModelS/induction/white/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Interior_White.avif"
+                },
+                {
+                    "name": "deepblue",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelS/dark/deepblue/compositor.jpeg",
+                        "/Models/ModelS/dark/deepblue/compositor (1).jpeg",
+                        "/Models/ModelS/dark/deepblue/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelS/induction/deepblue/compositor.jpeg",
+                        "/Models/ModelS/induction/deepblue/compositor (1).jpeg",
+                        "/Models/ModelS/induction/deepblue/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Paint_Blue.avif"
+                },
+                {
+                    "name": "silver",
+                    "price": 1000,
+                    "images": {
+                    "dark": [
+                        "/Models/ModelS/dark/silver/compositor.jpeg",
+                        "/Models/ModelS/dark/silver/compositor (1).jpeg",
+                        "/Models/ModelS/dark/silver/compositor (2).jpeg"
+                    ],
+                    "induction": [
+                        "/Models/ModelS/induction/silver/compositor.jpeg",
+                        "/Models/ModelS/induction/silver/compositor (1).jpeg",
+                        "/Models/ModelS/induction/silver/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/LSilverPaint.avif"
+                }
+                ],
+                "steering": [
+                {
+                    "name": "wheel",
+                    "price": 0,
+                    "previewImage" : "/Models/ui_swat_s-wheel-b.png"
+                },
+                {
+                    "name": "yoke",
+                    "price": 2000,
+                    "previewImage" : "/Models/ui_swat_s-wheel-y.png"
+                }
                 ],
                 "interior": [
-                    {"name": "All black", "price": 0, "image":"/Models/Model3/black/compositor (2).jpeg"},
-                    {"name": "All white", "price": 11110, "image":"/Models/Model3/black/compositor (3).jpeg"}
-                ],
-                "extras": [
-                    {"name": "Enhanced Autopilot", "price": 6000},
-                    {"name": "Full self-Driving Capability", "price": 6000}
+                {
+                    "name": "white",
+                    "price": 1000,
+                    "images": {
+                    "wheel": [
+                        "/Models/ModelS/wheel/compositor (1).jpeg"
+                    ],
+                    "yoke": [
+                        "/Models/ModelS/yoke/compositor (1).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Interior_White.avif"
+                },
+                {
+                    "name": "Black",
+                    "price": 1000,
+                    "images": {
+                    "wheel": [
+                        "/Models/ModelS/wheel/compositor.jpeg"
+                    ],
+                    "yoke": [
+                        "/Models/ModelS/yoke/compositor.jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Interior_Black.avif"
+                },
+                {
+                    "name": "cream",
+                    "price": 1000,
+                    "images": {
+                    "wheel": [
+                        "/Models/ModelS/wheel/compositor (2).jpeg"
+                    ],
+                    "yoke": [
+                        "/Models/ModelS/yoke/compositor (2).jpeg"
+                    ]
+                    },
+                    "previewImage" : "/Models/Interior_Cream.avif"
+                }
                 ]
             }
         },
         {
             "id": "model-cybertruck",
             "name": "CYBERTRUCk",
-            "basePrice": "From $68,490 4",
+            "basePrice": "",
             "defaultImage": "/Homepage-Cybertruck-Desktop-v3.avif",
-            "topDetails": "1.99% APR Financing Ending August 31",
+            "topDetails": "",
             "configurations": {
                 "colors": [
                     {"name": "white", "price": 0, "image" : "/Models/Model3/white/compositor (1).jpeg"},
@@ -293,6 +873,28 @@
         {
             "id": "model-charginglist1",
             "name": "Host Wall Connectors"
+        }
+    ],
+    "shop": [
+        {
+            "id": "mode-shoplist1",
+            "name": "Charging",
+            "defaulDisplaytImage": "/Mega-Menu-Shop-Charging.avif"
+        },
+        {
+            "id": "mode-shoplist1",
+            "name": "Vehicle Accessories",
+            "defaulDisplaytImage": "/Mega-Menu-Shop-Vehicle-Accessories.avif"
+        },
+        {
+            "id": "mode-shoplist1",
+            "name": "Apparel",
+            "defaulDisplaytImage": "/Mega-Menu-Shop-Apparel.avif"
+        },
+        {
+            "id": "mode-shoplist1",
+            "name": "Lifestyle",
+            "defaulDisplaytImage": "/Mega-Menu-Shop-Lifestyle.avif"
         }
     ]
 }

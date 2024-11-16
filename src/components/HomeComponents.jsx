@@ -14,7 +14,7 @@ const HomeComponent = () => {
                             <div className='mt-[66px] flex-col'>
                                 <div className='text-white font-semibold text-[55px]'>{product.name}</div>
                                 <div className='text-white font-normal text-[30px] mt-[-10px] underline underline-offset-8 decoration-1'>{product.topDetails}</div>
-                                <div className='text-white font-semibold text-[15px] tracking-wider'>{product.basePrice}</div>
+                                <div className='text-white font-semibold text-[15px] tracking-wider'>From ${product.basePrice}<sup>{product.priceback}</sup></div>
                             </div>
                             <div className='mb-10 font-montserrat text-sm font-medium text-[14px] tracking-wider'>
                                 <Link className='text-white bg-[#3e6ae1] mx-2.5 px-24 py-3 rounded' to={`/car/${product.id}`} >Order Now</Link>

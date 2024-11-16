@@ -2,11 +2,11 @@
 
 const HoverItemCard = ({ items = [] }) => {
     return (
-        <div className="m-20 ml-[200px]">
+        <div className="m-14 my-20 ml-[200px]">
             <div className="grid grid-cols-4 w-full">
             {items.map((item) => (
                 <div className='text-center' key={item.id}>
-                    <img className='w-80 cursor-pointer' src={item.defaulDisplaytImage}></img>
+                    <img className='cursor-pointer' src={item.defaulDisplaytImage}></img>
                     <div>
                         <div className="font-semibold">{item.name}</div>
                         <div className="flex justify-center space-x-4 text-slate-600 text-sm">
